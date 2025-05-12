@@ -3,7 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>toy</title>
+    <meta name="author" content="Nick" />
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="logo"><!--구글 로고 이미지--></div>
+      <form
+        class="search-bar"
+        action="https://www.google.com/search"
+        method="get"
+      >
+        <input type="search" name="q" placeholder="Google검색 또는 URL 입력" />
+        <!--구글 검색으로 연동-->
+        <!--구글 검색은 폼 제출하는 버튼이 없음. enter로만 동작하는 것 같음-->
+      </form>
+    </header>
+    <main>
+      <nav class="book-mark">
+        <!--처음엔 아무것도 없이 바로가기 추가 버튼만 있음-->
+        <div class="bm-addBtn">
+          <!--클릭시 원하는 url 입력 및 이름 입력하는 팝업창 나타남남-->
+        </div>
+      </nav>
+    </main>
+  </body>
 </html>
