@@ -30,4 +30,15 @@
   padding-right: 87px;
   border-radius: calc(0.5 * 48px);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 4px 12px rgba(0, 0, 0, 0.08);
+  outline: none;
+  transition: box-shadow 0.2s ease;
+}
+
+.search-box__input:focus {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+    /* offset-y가 2px */ 0 6px 12px rgba(0, 0, 0, 0.15); /* offset-y가 6px, blur도 크고 진함 */
+}
+
+.search-box__input:focus::placeholder {
+  color: transparent;
 }
