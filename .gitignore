@@ -42,3 +42,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# personal file
+nick.md
