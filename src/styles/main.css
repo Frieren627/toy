@@ -11,3 +11,23 @@
   min-height: 168px;
   margin-bottom: 38px;
 }
+.search-box {
+  display: flex;
+  margin-bottom: 16px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 48px;
+  width: 100%;
+}
+
+.search-box__input {
+  border: none;
+  height: 100%;
+  width: 746px;
+  box-sizing: border-box;
+  padding-left: 52px;
+  padding-right: 87px;
+  border-radius: calc(0.5 * 48px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 4px 12px rgba(0, 0, 0, 0.08);
+}
