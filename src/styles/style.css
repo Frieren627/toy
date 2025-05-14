@@ -1,0 +1,13 @@
+#main-logo {
+  background-image: url(/src/assets/icons/google_logo.svg);
+  height: 92px;
+  width: 272px;
+}
+#logo-case {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 168px;
+  margin-bottom: 38px;
+}
