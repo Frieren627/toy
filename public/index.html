@@ -7,21 +7,26 @@
     <meta name="author" content="Nick" />
     <script src="/src/app.js" defer></script>
     <link rel="stylesheet" href="/src/styles/reset.css" />
-    <link rel="stylesheet" href="/src/styles/style.css" />
+    <link rel="stylesheet" href="/src/styles/main.css" />
   </head>
   <body>
     <header>
-      <div id="logo-case">
-        <div id="main-logo">
+      <div id="header__logo-wrapper">
+        <div id="header__logo">
           <!--구글 로고 이미지-->
         </div>
       </div>
       <form
-        class="search-bar"
+        class="search-box"
         action="https://www.google.com/search"
         method="get"
       >
-        <input type="search" name="q" placeholder="Google검색 또는 URL 입력" />
+        <input
+          class="search-box__input"
+          type="search"
+          name="q"
+          placeholder="Google검색 또는 URL 입력"
+        />
         <!--구글 검색으로 연동-->
         <!--구글 검색은 폼 제출하는 버튼이 없음. enter로만 동작하는 것 같음-->
       </form>
@@ -30,7 +35,7 @@
       <nav class="book-mark">
         <!--처음엔 아무것도 없이 바로가기 추가 버튼만 있음-->
         <div class="bm-addBtn">
-          <!--클릭시 원하는 url 입력 및 이름 입력하는 팝업창 나타남남-->
+          <!--클릭시 원하는 url 입력 및 이름 입력하는 팝업창 나타남-->
         </div>
       </nav>
     </main>

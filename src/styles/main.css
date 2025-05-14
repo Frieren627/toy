@@ -1,9 +1,9 @@
-#main-logo {
+#header__logo {
   background-image: url(/src/assets/icons/google_logo.svg);
   height: 92px;
   width: 272px;
 }
-#logo-case {
+#header__logo-wrapper {
   display: flex;
   align-items: center;
   flex-direction: column;
